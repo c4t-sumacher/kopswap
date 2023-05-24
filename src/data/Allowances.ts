@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'markuniswap-sdk'
+import { Token, TokenAmount } from 'kopernikusswap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

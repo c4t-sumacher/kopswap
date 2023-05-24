@@ -1,4 +1,4 @@
-import { Currency } from 'markuniswap-sdk'
+import { Currency } from 'kopernikusswap-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

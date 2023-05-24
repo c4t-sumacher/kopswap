@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'markuniswap-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'kopernikusswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

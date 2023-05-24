@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'markuniswap-sdk'
+import { currencyEquals, Trade } from 'kopernikusswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

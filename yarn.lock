@@ -5710,9 +5710,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decimal.js-light@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/decimal.js-light/-/decimal.js-light-2.5.0.tgz#ca7faf504c799326df94b0ab920424fdfc125348"
-  integrity sha512-b3VJCbd2hwUpeRGG3Toob+CRo8W22xplipNhP3tN7TSVB/cyMX71P1vM2Xjc9H74uV6dS2hDDmo/rHq8L87Upg==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/decimal.js-light/-/decimal.js-light-2.5.1.tgz#134fd32508f19e208f4fb2f8dac0d2626a867934"
+  integrity sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -9260,9 +9260,9 @@ js-yaml@^3.13.1:
     esprima "^4.0.0"
 
 jsbi@^3.1.1:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.1.3.tgz#f024b340032f7c7caaa6ca4b32b55e8d33f6e897"
-  integrity sha512-nBJqA0C6Qns+ZxurbEoIR56wyjiUszpNy70FHvxO5ervMoCbZVE3z3kxr5nKGhlxr/9MhKTSUBs7cAwwuf3g9w==
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.5.tgz#b37bb90e0e5c2814c1c2a1bcd8c729888a2e37d6"
+  integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -9534,6 +9534,19 @@ kleur@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
+
+kopernikusswap-sdk@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/kopernikusswap-sdk/-/kopernikusswap-sdk-1.0.0.tgz#7768c2ae994a7d883773bd548f2da63c64117c1f"
+  integrity sha512-vMXcIn6mm/1n6DhlBxbUw6G3L0Q/UcFbgbdTMr8JM9c8a8vHRJzbxPbKNFNUUrMGGZSzBHE1pl2vgT1rJHr7hQ==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
@@ -9925,19 +9938,6 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
-
-markuniswap-sdk@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/markuniswap-sdk/-/markuniswap-sdk-1.0.0.tgz#9387e61c291ffb7e46b423afa9c86546f002fa0f"
-  integrity sha512-A2h+txO/AH2vGruZ4VD4h1RHJuwONiFn2r9bU7E1vmbsyk72K1UKmiqI8vzQpxkotQccDTonWwAHCgK3cfmABQ==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -14229,10 +14229,15 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tiny-invariant@^1.0.2, tiny-invariant@^1.0.6, tiny-invariant@^1.1.0:
+tiny-invariant@^1.0.2, tiny-invariant@^1.0.6:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
   integrity sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==
+
+tiny-invariant@^1.1.0:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.3.1.tgz#8560808c916ef02ecfd55e66090df23a4b7aa642"
+  integrity sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==
 
 tiny-warning@^1.0.0, tiny-warning@^1.0.3:
   version "1.0.3"

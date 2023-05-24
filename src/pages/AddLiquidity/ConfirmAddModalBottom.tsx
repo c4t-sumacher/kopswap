@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'markuniswap-sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'kopernikusswap-sdk'
 import React from 'react'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'

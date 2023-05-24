@@ -1,4 +1,4 @@
-import { Trade } from 'markuniswap-sdk'
+import { Trade } from 'kopernikusswap-sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'

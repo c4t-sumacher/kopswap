@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'markuniswap-sdk'
+import { Currency, ETHER, Token } from 'kopernikusswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

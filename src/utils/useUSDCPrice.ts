@@ -1,4 +1,4 @@
-import { ChainId, Currency, currencyEquals, JSBI, Price, WETH } from 'markuniswap-sdk'
+import { ChainId, Currency, currencyEquals, JSBI, Price, WETH } from 'kopernikusswap-sdk'
 import { useMemo } from 'react'
 import { USDC } from '../constants'
 import { PairState, usePairs } from '../data/Reserves'
